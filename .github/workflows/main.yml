@@ -5,3 +5,12 @@ on:
   push:
     branches: [ develop ]
         
+jobs:
+  deploy-to-github-pages:
+    # use ubuntu-latest image to run steps on
+    runs-on: ubunto-latest
+    steps:
+      # uses GitHub's checkout action to checkout code from the master branch
+      - uses: actions/checkout@v2
+      
+    
