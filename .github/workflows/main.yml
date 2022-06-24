@@ -1,3 +1,4 @@
+
 name:  Deploy to GitHub Pages
 # Run work workflow on every push to the devleop branch
 on:
@@ -30,4 +31,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
           FOLDER: release/wwwroot
-  
