@@ -12,6 +12,7 @@ jobs:
     steps:
       # uses GitHub's checkout action to checkout code from the master branch
       - uses: actions/checkout@v2
+      
       # sets up .NET Core SDK 3.1
       - name:  Setup .NET Core SDK
         uses: actions/setup@dotnet@v1.6.0
@@ -26,7 +27,7 @@ jobs:
       - name: Commit wwwroot to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
-          GITHUB_TOKEN:  ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
           FOLDER: release/wwwroot
   
