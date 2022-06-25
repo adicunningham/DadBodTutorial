@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F4Xk4rf+rxqBWoJ/HUrxLcmpfVFosAgFyCcTkL94/JJYXGGI/e9uUJ6nsB+U9jgFbkfHEV6tX2F7D10NKThNZw==",
+  "dgSpecHash": "4qnfEhz2ZeQBJQgiAwcjiXccTMjliW8//drbZhBKpmG8sxGubqDPL7U76Q04LL6iUIDM9DzHr0Kv0bsiK522wQ==",
   "success": true,
-  "projectFilePath": "D:\\source\\Temp\\DadBodTutorial\\DadBodTutorial\\DadBodTutorial.csproj",
+  "projectFilePath": "D:\\source\\DadBodTutorial\\DadBodTutorial.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Adrian Cunningham\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.6\\microsoft.aspnetcore.authorization.6.0.6.nupkg.sha512",
     "C:\\Users\\Adrian Cunningham\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.6\\microsoft.aspnetcore.components.6.0.6.nupkg.sha512",

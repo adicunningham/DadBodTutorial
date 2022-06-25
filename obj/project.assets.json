@@ -1554,11 +1554,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\source\\Temp\\DadBodTutorial\\DadBodTutorial\\DadBodTutorial.csproj",
+      "projectUniqueName": "D:\\source\\DadBodTutorial\\DadBodTutorial.csproj",
       "projectName": "DadBodTutorial",
-      "projectPath": "D:\\source\\Temp\\DadBodTutorial\\DadBodTutorial\\DadBodTutorial.csproj",
+      "projectPath": "D:\\source\\DadBodTutorial\\DadBodTutorial.csproj",
       "packagesPath": "C:\\Users\\Adrian Cunningham\\.nuget\\packages\\",
-      "outputPath": "D:\\source\\Temp\\DadBodTutorial\\DadBodTutorial\\obj\\",
+      "outputPath": "D:\\source\\DadBodTutorial\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
