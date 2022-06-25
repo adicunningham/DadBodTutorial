@@ -21,14 +21,17 @@ jobs:
       run: dotnet restore
     
     - name: Build
-      run: dotnet build -c Debug --no-restore
+      run: dotnet build -c Release --no-restore
     
     - name: Test
       run: dotnet test --no-build --verbosity normal
     
+    - name: Publish Blazor project to the release-folder
+      run: dotnet publish DadBodTutorial.csproj -c Release -o release --nologo
+      
     - name: Commit wwwroot to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
-        FOLDER: wwwroot
+        FOLDER: release/wwwroot
